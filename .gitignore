@@ -36,3 +36,6 @@ build/
 
 # Ignore CSVs in data/
 data/*.csv
+
+# Track project poster
+!results/poster.pdf
