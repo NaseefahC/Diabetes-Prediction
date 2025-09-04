@@ -252,7 +252,7 @@ pip install -r requirements.txt
 
 # Run the pipeline (default dataset + training)
 python src/main.py
-
+```
 
 
 ## Ethical Considerations
