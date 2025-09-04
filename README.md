@@ -232,6 +232,26 @@ matplotlib==3.8.4
 [Download the poster (PDF)](results/poster.pdf)
 [View the final poster (PDF)](results/poster.pdf)
 
+## Deployment
+
+### Local Demo (Train & Evaluate)
+Run the full training pipeline locally on the Kaggle dataset.  
+This will preprocess the data, train an XGBoost model, tune the threshold, and save results/plots.
+
+```bash
+# Clone repo and move inside
+git clone https://github.com/NaseefahC/Diabetes-Prediction.git
+cd Diabetes-Prediction
+
+# (optional) create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run the pipeline (default dataset + training)
+python src/main.py
 
 
 
