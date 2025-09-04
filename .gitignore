@@ -1,0 +1,38 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data (raw/large)
+data/raw/
+data/external/
+*.zip
+
+# Logs & results (generated)
+logs/*
+!logs/.gitkeep
+results/*
+!results/.gitkeep
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Ignore CSVs in data/
+data/*.csv
