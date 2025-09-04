@@ -338,3 +338,10 @@ with open(RESULTS / "run_metadata.json", "w", encoding="utf-8") as f:
     json.dump(meta, f, indent=2)
 
 print(f"Saved plots and metadata to: {RESULTS}")
+
+# Save trained model for demo use
+import joblib
+Path("results").mkdir(parents=True, exist_ok=True)
+joblib.dump(xgb_model, "results/xgb_model.pkl")
+print("✅ Model saved to results/xgb_model.pkl")
+
