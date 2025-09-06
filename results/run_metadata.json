@@ -1,0 +1,21 @@
+{
+  "threshold": 0.22,
+  "precision_pos": 0.7596638655462185,
+  "recall_pos": 0.8028419182948491,
+  "f1_pos": 0.7806563039723662,
+  "accuracy": 0.9603187002030933,
+  "roc_auc": 0.9790563387909312,
+  "random_state": 42,
+  "features": [
+    "gender_encoded",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "smoking_history_encoded",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level"
+  ],
+  "data_path": "/Users/HP/Desktop/ML_Capstone/data/diabetes_prediction_dataset.csv",
+  "generated_at_utc": "2025-09-04T09:37:17.676082Z"
+}
