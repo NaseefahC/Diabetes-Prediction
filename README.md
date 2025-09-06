@@ -1,5 +1,4 @@
-
-# Diabetes Prediction with XGBoost
+# RiskRadar: Early Detection of Diabetes with Patient Data
 
 **Author:** Naseefah Chowdhury  
 **Program:** Morehouse College Machine Learning Technician Postbaccalaureate Program  
